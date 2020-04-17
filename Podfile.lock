@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DZNEmptyDataSet (1.8.1)
+  - SwiftGen (6.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DZNEmptyDataSet
+  - SwiftGen
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DZNEmptyDataSet
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
+
+PODFILE CHECKSUM: 848cefcf1b62798c56cd612b48ca015cc7a77b51
+
+COCOAPODS: 1.9.1
