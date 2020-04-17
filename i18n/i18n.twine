@@ -1,0 +1,28 @@
+[[Tabbar]]
+    [Tabbar.transactions]
+        en = Transactions
+        es = Transacciones
+
+    [Tabbar.about]
+        en = Info
+        es = Info
+
+[[Transaction]]
+    [Transaction.Reference.title]
+        en = Reference
+        es = Referencia
+
+[[Transactions]]
+    [Transactions.empty.title]
+        en = No transactions
+        es = No hay transacciones
+
+[[About]]
+    [About.content]
+        en = MVCSwift App developed by David Seca
+        es = MVCSwift App desarrollada por David Seca
+
+[[Date]]
+    [Date.format]
+        en = MM/dd/yyyy
+        es = dd/MM/yyyy

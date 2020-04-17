@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransactionsViewController" customModule="MVCSwift" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="Mfx-Ia-SBm" id="WSp-hM-hxH"/>
+                <outlet property="lastTransactionView" destination="a42-7W-pgY" id="5ZE-0r-cwY"/>
+                <outlet property="tableView" destination="zrG-4a-46c" id="NVO-lA-Umd"/>
+                <outlet property="view" destination="SkO-NW-3a5" id="ToL-se-Jlz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SkO-NW-3a5">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a42-7W-pgY" customClass="TransactionDisplayView" customModule="test_transactions" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="55" width="414" height="70"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="7ps-VW-w2c"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zrG-4a-46c">
+                    <rect key="frame" x="0.0" y="125" width="414" height="737"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Mfx-Ia-SBm">
+                    <rect key="frame" x="197" y="443" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="zrG-4a-46c" firstAttribute="leading" secondItem="ifT-QX-o2R" secondAttribute="leading" id="60M-37-zEz"/>
+                <constraint firstItem="zrG-4a-46c" firstAttribute="top" secondItem="a42-7W-pgY" secondAttribute="bottom" id="6Py-x3-O7Z"/>
+                <constraint firstItem="Mfx-Ia-SBm" firstAttribute="centerX" secondItem="ifT-QX-o2R" secondAttribute="centerX" id="VCP-fz-R2Q"/>
+                <constraint firstItem="ifT-QX-o2R" firstAttribute="trailing" secondItem="zrG-4a-46c" secondAttribute="trailing" id="WOq-50-Zrn"/>
+                <constraint firstItem="Mfx-Ia-SBm" firstAttribute="centerY" secondItem="ifT-QX-o2R" secondAttribute="centerY" id="Zfs-2b-HSB"/>
+                <constraint firstItem="ifT-QX-o2R" firstAttribute="bottom" secondItem="zrG-4a-46c" secondAttribute="bottom" id="dCQ-ke-iR7"/>
+                <constraint firstItem="a42-7W-pgY" firstAttribute="leading" secondItem="ifT-QX-o2R" secondAttribute="leading" id="dJV-dI-twF"/>
+                <constraint firstItem="ifT-QX-o2R" firstAttribute="trailing" secondItem="a42-7W-pgY" secondAttribute="trailing" id="j1h-ew-sIw"/>
+                <constraint firstItem="a42-7W-pgY" firstAttribute="top" secondItem="ifT-QX-o2R" secondAttribute="top" constant="11" id="rH2-FL-504"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ifT-QX-o2R"/>
+            <point key="canvasLocation" x="92.753623188405811" y="103.79464285714285"/>
+        </view>
+    </objects>
+</document>

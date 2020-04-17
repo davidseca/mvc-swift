@@ -1,0 +1,40 @@
+
+[
+{
+"id":1,
+"date":"2018-07-02T16:54:27.000Z",
+"amount":200,
+"description":"Transaction 2"
+},
+{
+"id":2,
+"date":"2018-07-01T22:49:24.000Z",
+"amount":-100.5,
+"fee":-2.0,
+"description":"Transaction 1"
+},
+{
+"id":3,
+"date":"2018-07-03T18:10:10.000Z",
+"amount":-113.86
+},
+{
+"id":4,
+"date":"2019999900Z",
+"amount":-153.62,
+"fee":-3.14,
+"description":"Transaction 4"
+},
+{
+"id":5,
+"date":"2018-07-05T21:33:19.000Z",
+"amount":-38.67
+},
+{
+"id":5,
+"date":"2018-07-06T17:56:43.000Z",
+"amount":87.84,
+"fee":-1.11,
+"description":"Transaction 5"
+}
+]
